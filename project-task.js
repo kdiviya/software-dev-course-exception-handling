@@ -107,4 +107,34 @@ Code Flow Problems:
 
 Structured Exception Handling:
   Add try/catch blocks to handle the above errors gracefully.
+
+Output:
+
+Welcome to the Pet Shelter System
+Choose an action: 'add', 'fee', or 'exit': add
+Enter the animal's name: cat
+Enter the adoption fee: 25
+cat added with a fee of $25.
+Choose an action: 'add', 'fee', or 'exit': add
+Enter the animal's name: 
+Enter the adoption fee: 
+Custom Error: Invalid animal name and adoption fee!
+Choose an action: 'add', 'fee', or 'exit': add
+Enter the animal's name: dog
+Enter the adoption fee: -8
+Custom Error: Invalid animal name and adoption fee!
+Choose an action: 'add', 'fee', or 'exit': add
+Enter the animal's name: 
+Enter the adoption fee: 23
+Custom Error: Invalid animal name and adoption fee!
+Choose an action: 'add', 'fee', or 'exit': fee
+Enter the animal's name to find its adoption fee: cat
+cat's adoption fee is $25.
+Choose an action: 'add', 'fee', or 'exit': fee
+Enter the animal's name to find its adoption fee: bird
+Custom Error: Animal not found in records!
+Choose an action: 'add', 'fee', or 'exit': sdfaf
+Invalid action. Please choose 'add', 'fee', or 'exit'.
+Choose an action: 'add', 'fee', or 'exit': exit
+Goodbye!
 */
